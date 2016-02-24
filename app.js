@@ -28,10 +28,38 @@ var b = "";
 for(i = array.length - 1; i >= 0; i--){
 	b += array[i];
 }
-	console.log(b);
+
 
 value = parseInt(value);
 b = parseInt(b);
 
+
+value += b;
+
+
+if (value > 3287) {
+	value = 8;
+} else if (value = 3686) {
+	value = 13;
+} else {
+	value = 1;
+}
+i=4;
+while(i>0) {
+	i--;
+	value++;
+}
+
+function (val) {
+  val = value.toString();
+  if(val.length>1) {
+  	value = str.slice(1);
+  	return val;
+  }
+};
+
+
+
 console.log(value);
-console.log(b);
+
+
